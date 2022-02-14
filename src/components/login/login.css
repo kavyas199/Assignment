@@ -1,0 +1,53 @@
+ /* body{
+   background-image: url(login_image.jpg);
+  }  */
+  .App{
+    text-align: center;
+  }
+  .login-container{
+    padding: 50px;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    border-width: 10px;
+    border-color: #E20074;
+    background-image: url(login_image.jpg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:10px ;
+    text-align: center;
+
+  }
+  
+  
+  
+  .input-section input{
+    border: 1px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+ 
+  }
+  
+  .login-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(103, 134, 105, 0.938);
+    border-color: rgb(72, 72, 116);
+    color: aliceblue;
+    margin: 40px;
+    cursor: pointer;
+  
+  }
+  
+  .login-button:hover{
+background-color: rgb(147, 179, 151);
+  }
+  
+  input::placeholder{
+    text-align: center;
+  }
